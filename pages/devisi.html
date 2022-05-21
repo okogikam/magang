@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>AdminLTE 3 | Starter</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../dist/css/adminlte.min.css" />
+    <!-- DataTables -->
+    <link
+      rel="stylesheet"
+      href="../plugins/datatables-bs4/css/dataTables.bootstrap4.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../plugins/datatables-responsive/css/responsive.bootstrap4.min.css"
+    />
+
+    <link rel="stylesheet" href="../dist/css/style.css" />
+    <!-- Google Font: Source Sans Pro -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed">
+    <div class="wrapper">
+      <!-- Navbar -->
+      <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <!-- Right navbar links -->
+        <ul class="navbar-nav ml-auto">
+          <!-- Messages Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#">
+              Admin
+              <i class="far fa-user"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+              <a href="#" class="dropdown-item"> Keluar </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.navbar -->
+
+      <!-- Main Sidebar Container -->
+      <aside class="main-sidebar sidebar-dark-primary elevation-4 bg-primary">
+        <!-- Brand Logo -->
+        <a href="index3.html" class="brand-link bg-primary p-0 m-0">
+          <span class="font-weight-light title"
+            >Aplikasi Pengawasan Peserta Magang</span
+          >
+        </a>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <!-- Sidebar Menu -->
+          <nav class="mt-2">
+            <ul
+              class="nav nav-pills nav-sidebar flex-column"
+              data-widget="treeview"
+              role="menu"
+              data-accordion="false"
+            >
+              <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="fas fa-home"></i>
+                  <p>Beranda</p>
+                </a>
+              </li>
+              <li class="nav-item has-treeview menu-open">
+                <a href="#" class="nav-link active">
+                  <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>
+                    Profil Pengguna
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview bg-white">
+                  <li class="nav-item">
+                    <a href="./new-user.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Tambah Akun user</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./new-pass.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Reset Kata Sandi</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./user.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Daftar Akun</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item has-treeview menu-open">
+                <a href="#" class="nav-link active">
+                  <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>
+                    Data Master
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview bg-white">
+                  <li class="nav-item">
+                    <a href="./peserta.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Peserta</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./sekolah.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Sekolah</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./devisi.html" class="nav-link active">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Bagian/Divisi</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Karyawan</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item has-treeview menu-open">
+                <a href="#" class="nav-link active">
+                  <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>
+                    Teransaksi
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview bg-white">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Penempatan</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Kegiatan</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Absensi</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item has-treeview menu-open">
+                <a href="#" class="nav-link active">
+                  <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>
+                    Laporan
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview bg-white">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Lap. Penempatan</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Lap. Kegiatan</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Lap. Absensi</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Main content -->
+        <div class="content pt-5">
+          <div class="container-fluid">
+            <div class="text-center pb-3">
+              <h2>Data Bagian / Devisi</h2>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 m-auto">
+                <form action="#" method="post">
+                  <div class="form-group row">
+                    <label for="nama-divisi" class="col-sm-2"
+                      >Nama Bagian</label
+                    >
+                    <input
+                      type="text"
+                      name="nama-divisi"
+                      required
+                      class="form-control col-sm-10"
+                    />
+                  </div>
+                  <div class="form-group row">
+                    <label for="pj" class="col-sm-2">Penaggung Jawab</label>
+                    <select
+                      name="pj"
+                      id=""
+                      class="form-control col-sm-5"
+                    ></select>
+                  </div>
+                  <div class="form-group text-center">
+                    <input
+                      type="submit"
+                      name="simpan"
+                      value="Simpan"
+                      class="btn btn-primary"
+                    />
+                  </div>
+                </form>
+              </div>
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+                    <table
+                      class="table table-bordered table-hover"
+                      id="tabel-user"
+                    >
+                      <thead>
+                        <tr>
+                          <th>Nama Bagian</th>
+                          <th>Penaggung Jawab</th>
+                          <th class="tb-aksi">Aksi</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Admiistrasi</td>
+                          <td>Bambang</td>
+                          <td>
+                            <a href="#" class="btn btn-warning">Edit</a>
+                            <a href="" class="btn btn-danger">Hapus</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Magang</td>
+                          <td>Budi</td>
+                          <td>
+                            <a href="#" class="btn btn-warning">Edit</a>
+                            <a href="" class="btn btn-danger">Hapus</a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- /.content -->
+      </div>
+      <!-- /.content-wrapper -->
+
+      <!-- Main Footer -->
+      <footer class="main-footer"></footer>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- REQUIRED SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../dist/js/adminlte.min.js"></script>
+    <!-- DataTables -->
+    <script src="../plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+
+    <script>
+      $(function () {
+        $("#tabel-user").DataTable({
+          responsive: true,
+          autoWidth: false,
+          ordering: true,
+        });
+      });
+    </script>
+  </body>
+</html>

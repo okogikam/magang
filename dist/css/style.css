@@ -1,0 +1,23 @@
+.nav-treeview .nav-item a {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.nav-treeview .nav-item a:hover {
+  color: black !important;
+  font-weight: 600;
+}
+
+.nav-treeview .nav-item a.active {
+  color: black !important;
+  font-weight: 500;
+}
+.title {
+  white-space: normal;
+  font-size: 12pt;
+  text-align: left;
+  padding: 15px;
+}
+
+.tb-aksi {
+  width: 200px;
+}
